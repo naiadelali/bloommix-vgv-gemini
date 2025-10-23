@@ -284,6 +284,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Lalli Bloom** - Desenvolvedora Flutter
 
+- 💼 [LinkedIn](https://www.linkedin.com/in/naiadelalli/)
+- 🐙 [GitHub](https://github.com/lallibloom)
+
 Project Link: [https://github.com/lallibloom/bloomix](https://github.com/lallibloom/bloomix)
 
 ---
