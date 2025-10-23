@@ -1,0 +1,101 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Bloomix Debug",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [],
+      "env": {
+        "FLUTTER_ENV": "development"
+      },
+      "dartSdkPath": null,
+      "flutterSdkPath": null,
+      "toolArgs": ["--dart-define-from-file=config.json"]
+    },
+    {
+      "name": "Bloomix Profile",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [],
+      "env": {
+        "FLUTTER_ENV": "profile"
+      },
+      "dartSdkPath": null,
+      "flutterSdkPath": null,
+      "toolArgs": ["--profile", "--dart-define-from-file=config.json"]
+    },
+    {
+      "name": "Bloomix Release",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [],
+      "env": {
+        "FLUTTER_ENV": "production"
+      },
+      "dartSdkPath": null,
+      "flutterSdkPath": null,
+      "toolArgs": ["--release", "--dart-define-from-file=config.json"]
+    },
+    {
+      "name": "Bloomix Staging",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_staging.dart",
+      "args": [],
+      "env": {
+        "FLUTTER_ENV": "staging"
+      },
+      "dartSdkPath": null,
+      "flutterSdkPath": null,
+      "toolArgs": ["--dart-define-from-file=config.json"]
+    },
+    {
+      "name": "Bloomix Production",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_production.dart",
+      "args": [],
+      "env": {
+        "FLUTTER_ENV": "production"
+      },
+      "dartSdkPath": null,
+      "flutterSdkPath": null,
+      "toolArgs": ["--release", "--dart-define-from-file=config.json"]
+    },
+    {
+      "name": "Bloomix Android Debug",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [],
+      "deviceId": "android",
+      "env": {
+        "FLUTTER_ENV": "development"
+      },
+      "toolArgs": ["--dart-define-from-file=config.json"]
+    },
+    {
+      "name": "Bloomix iOS Debug",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [],
+      "deviceId": "ios",
+      "env": {
+        "FLUTTER_ENV": "development"
+      },
+      "toolArgs": ["--dart-define-from-file=config.json"]
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Bloomix Debug + Hot Reload",
+      "configurations": ["Bloomix Debug"],
+      "stopAll": true
+    }
+  ]
+}

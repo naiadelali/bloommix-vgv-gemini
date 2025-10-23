@@ -1,0 +1,67 @@
+{
+  "folders": [
+    {
+      "name": "Bloomix",
+      "path": "."
+    },
+    {
+      "name": "Design System",
+      "path": "./packages/bloomix_ds"
+    }
+  ],
+  "settings": {
+    "dart.flutterSdkPath": null,
+    "dart.lineLength": 100,
+    "dart.enableSdkFormatter": true,
+    "dart.insertArgumentPlaceholders": false,
+    "dart.showTodos": true,
+    "dart.runPubGetOnPubspecChanges": true,
+    "dart.warnWhenEditingFilesOutsideWorkspace": true,
+    "dart.openDevTools": "flutter",
+    "files.associations": {
+      "*.dart": "dart"
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/build": true,
+      "**/.dart_tool": true,
+      "**/.packages": true,
+      "**/.pub-cache": true,
+      "**/.pub": true,
+      "**/config.json": true
+    },
+    "search.exclude": {
+      "**/build": true,
+      "**/.dart_tool": true,
+      "**/.packages": true,
+      "**/.pub-cache": true,
+      "**/.pub": true,
+      "**/node_modules": true
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [100],
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "emmet.includeLanguages": {
+      "dart": "html"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "dart-code.dart-code",
+      "dart-code.flutter",
+      "ms-vscode.vscode-json",
+      "github.copilot",
+      "github.copilot-chat"
+    ]
+  }
+}

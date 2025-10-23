@@ -1,0 +1,9 @@
+{
+  "geminiApiKey": "SUA_CHAVE_DO_GEMINI_AQUI",
+  "testBannerAdUnitId": "ca-app-pub-3940256099942544/6300978111",
+  "testInterstitialAdUnitId": "ca-app-pub-3940256099942544/1033173712",
+  "productionAndroidBannerAdUnitId": "ca-app-pub-XXXXXXXXXX/XXXXXXXXXX",
+  "productionAndroidInterstitialAdUnitId": "ca-app-pub-XXXXXXXXXX/XXXXXXXXXX",
+  "productionIOSBannerAdUnitId": "ca-app-pub-XXXXXXXXXX/XXXXXXXXXX",
+  "productionIOSInterstitialAdUnitId": "ca-app-pub-XXXXXXXXXX/XXXXXXXXXX"
+}

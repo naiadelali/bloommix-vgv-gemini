@@ -1,0 +1,54 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="512" cy="512" r="512" fill="#4CAF50" />
+
+  <!-- Flower Petals -->
+  <g transform="translate(512, 512)">
+    <!-- Petal 1 (Top) -->
+    <ellipse cx="0" cy="-80" rx="60" ry="120" fill="#81C784" transform="rotate(0 0 0)" />
+
+    <!-- Petal 2 (Top Right) -->
+    <ellipse cx="57" cy="-57" rx="60" ry="120" fill="#81C784" transform="rotate(45 57 -57)" />
+
+    <!-- Petal 3 (Right) -->
+    <ellipse cx="80" cy="0" rx="60" ry="120" fill="#81C784" transform="rotate(90 80 0)" />
+
+    <!-- Petal 4 (Bottom Right) -->
+    <ellipse cx="57" cy="57" rx="60" ry="120" fill="#81C784" transform="rotate(135 57 57)" />
+
+    <!-- Petal 5 (Bottom) -->
+    <ellipse cx="0" cy="80" rx="60" ry="120" fill="#81C784" transform="rotate(180 0 80)" />
+
+    <!-- Petal 6 (Bottom Left) -->
+    <ellipse cx="-57" cy="57" rx="60" ry="120" fill="#81C784" transform="rotate(225 -57 57)" />
+
+    <!-- Petal 7 (Left) -->
+    <ellipse cx="-80" cy="0" rx="60" ry="120" fill="#81C784" transform="rotate(270 -80 0)" />
+
+    <!-- Petal 8 (Top Left) -->
+    <ellipse cx="-57" cy="-57" rx="60" ry="120" fill="#81C784" transform="rotate(315 -57 -57)" />
+
+    <!-- Center Circle -->
+    <circle cx="0" cy="0" r="40" fill="#2E7D32" />
+
+    <!-- Center Highlight -->
+    <circle cx="-8" cy="-8" r="15" fill="#4CAF50" opacity="0.6" />
+
+    <!-- Stem -->
+    <rect x="-8" y="80" width="16" height="200" fill="#2E7D32" rx="8" />
+
+    <!-- Leaves -->
+    <ellipse cx="-40" cy="150" rx="25" ry="80" fill="#66BB6A" transform="rotate(-30 -40 150)" />
+    <ellipse cx="40" cy="180" rx="25" ry="80" fill="#66BB6A" transform="rotate(30 40 180)" />
+
+    <!-- Leaf Details -->
+    <ellipse cx="-35" cy="145" rx="15" ry="50" fill="#4CAF50" transform="rotate(-30 -35 145)" />
+    <ellipse cx="35" cy="175" rx="15" ry="50" fill="#4CAF50" transform="rotate(30 35 175)" />
+  </g>
+
+  <!-- Decorative Elements -->
+  <circle cx="200" cy="200" r="8" fill="#A5D6A7" opacity="0.6" />
+  <circle cx="824" cy="824" r="6" fill="#A5D6A7" opacity="0.4" />
+  <circle cx="150" cy="874" r="10" fill="#A5D6A7" opacity="0.5" />
+  <circle cx="874" cy="150" r="7" fill="#A5D6A7" opacity="0.3" />
+</svg>

@@ -1,0 +1,61 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Bloomix - Debug (Auto)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=config.json"
+      ],
+      "console": "debugConsole",
+      "cwd": "${workspaceFolder}",
+      "flutterMode": "debug",
+      "autoStart": true,
+      "deviceId": "auto"
+    },
+    {
+      "name": "Bloomix - Debug (iOS Simulator)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=config.json"
+      ],
+      "console": "debugConsole",
+      "cwd": "${workspaceFolder}",
+      "flutterMode": "debug",
+      "deviceId": "ios"
+    },
+    {
+      "name": "Bloomix - Debug (Android Emulator)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=config.json"
+      ],
+      "console": "debugConsole",
+      "cwd": "${workspaceFolder}",
+      "flutterMode": "debug",
+      "deviceId": "android"
+    },
+    {
+      "name": "Bloomix - Debug (Physical iOS)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=config.json",
+        "-d",
+        "00008020-000439082EA1402E"
+      ],
+      "console": "debugConsole",
+      "cwd": "${workspaceFolder}",
+      "flutterMode": "debug",
+      "deviceId": "00008020-000439082EA1402E"
+    }
+  ]
+}
+

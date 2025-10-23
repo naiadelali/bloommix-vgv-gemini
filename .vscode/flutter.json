@@ -1,0 +1,15 @@
+{
+  "dart.flutterSdkPath": null,
+  "dart.lineLength": 100,
+  "dart.flutterCreateAndroidLanguage": "kotlin",
+  "dart.flutterCreateIOSLanguage": "swift",
+  "dart.flutterCreatePlatforms": ["android", "ios", "web", "macos"],
+  "dart.flutterCreateOrg": "com.bloomix",
+  "dart.flutterCreateDescription": "Bloomix é o seu companheiro de bolso para o mundo botânico, um app inovador que utiliza a IA Gemini para identificar plantas instantaneamente e fornecer dicas essenciais de cuidado.",
+  "dart.flutterCreateTemplate": "app",
+  "dart.flutterCreateSample": "counter",
+  "dart.flutterCreateOffline": false,
+  "dart.flutterCreatePub": false,
+  "dart.flutterCreateOffline": false,
+  "dart.flutterCreatePub": false
+}

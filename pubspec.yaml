@@ -1,0 +1,60 @@
+name: bloomix
+description: "Bloomix é o seu companheiro de bolso para o mundo botânico, um app inovador que utiliza a IA Gemini para identificar plantas instantaneamente e fornecer dicas essenciais de cuidado."
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_bloc: ^9.1.1
+  dio: ^5.7.0
+  shared_preferences: ^2.3.2
+  get_it: ^8.0.0
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  google_generative_ai: ^0.4.7
+  google_mobile_ads: ^6.0.0
+  intl: ^0.20.2
+  camera: ^0.11.2+1
+  flutter_secure_storage: ^9.2.2
+  lottie: ^3.1.2
+  path_provider: ^2.1.4
+  equatable: ^2.0.5
+  bloomix_ds:
+    path: packages/bloomix_ds
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.4
+  very_good_analysis: ^10.0.0
+  build_runner: ^2.4.8
+  freezed: ^2.4.6
+  json_serializable: ^6.8.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/bloomix_icon.png
+  remove_alpha_ios: true
+  adaptive_icon_background: "#4CAF50"
+  adaptive_icon_foreground: assets/icons/bloomix_icon.png
+
+# Scripts personalizados para executar com configurações seguras
+# Use: dart run tool/run_app.dart [modo]
+# Modos disponíveis: debug, dev, profile, release, build-apk, build-ios

@@ -1,0 +1,135 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Configurações sensíveis e arquivos com senhas
+config.json
+config.production.json
+config.staging.json
+config.development.json
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+
+# Chaves e certificados Android/iOS
+android/key.properties
+android/keystore/
+android/app/keystore/
+android/app/*.jks
+android/app/*.keystore
+android/app/*.p12
+android/app/*.p8
+ios/*.p8
+ios/*.p12
+ios/*.mobileprovision
+ios/*.cer
+ios/*.certSigningRequest
+
+# Arquivos de configuração do Firebase
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+firebase_options.dart
+
+# Arquivos de configuração do Google Cloud
+google-services.json
+GoogleService-Info.plist
+service-account-key.json
+service-account.json
+
+# Arquivos de configuração de CI/CD
+.github/secrets/
+.github/workflows/secrets/
+azure-pipelines.yml
+.gitlab-ci.yml
+.travis.yml
+.circleci/config.yml
+
+# Arquivos de backup e temporários
+*.backup
+*.bak
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos de debug
+*.log
+logs/
+debug.log
+error.log
+crash.log
+
+# Arquivos de banco de dados locais
+*.db
+*.sqlite
+*.sqlite3
+database/
+
+# Arquivos de cache e temporários
+.cache/
+tmp/
+temp/
+.tmp/
+
+# Arquivos de configuração pessoal (mantendo exemplos)
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.qodo/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/shelf/
+
+# Arquivos de senhas e tokens
+passwords.txt
+tokens.txt
+secrets.txt
+credentials.txt
+api_keys.txt
