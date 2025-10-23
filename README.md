@@ -7,7 +7,7 @@
 [![Powered by Flutter][flutter_badge]][flutter_link]
 
 <div align="center">
-  <img src="assets/icons/bloomix_icon.png" width="120" alt="Bloomix Logo" />
+🌱
   <p><strong>Your AI-powered plant identification companion</strong></p>
 </div>
 
@@ -26,7 +26,7 @@ Bloomix is a cutting-edge Flutter application that leverages Google's Gemini AI 
   
   <details>
     <summary>📋 <strong>Funcionalidades Demonstradas no Vídeo</strong></summary>
-    
+
     - 🤖 **Identificação de Plantas** com IA Gemini
     - 📸 **Captura de Fotos** com câmera integrada
     - 📊 **Resultados Detalhados** com pontuação de confiança
@@ -46,7 +46,7 @@ Bloomix is a cutting-edge Flutter application that leverages Google's Gemini AI 
   
   <details>
     <summary>🖼️ <strong>Telas do App</strong></summary>
-    
+
     - 🏠 **Tela Inicial** - Interface principal com botão de câmera
     - 📸 **Tela da Câmera** - Captura de fotos com preview
     - 🔍 **Tela de Resultado** - Identificação da planta com detalhes
