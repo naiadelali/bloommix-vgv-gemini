@@ -1,6 +1,7 @@
 # Bloomix - Arquitetura do Projeto
 
 ## 🌱 Visão Geral
+
 Bloomix é um aplicativo Flutter que usa IA Gemini para identificar plantas através de fotos. Segue o padrão **Very Good Ventures (VGV)** com **Clean Architecture**.
 
 ## 📁 Estrutura de Pastas
@@ -51,16 +52,19 @@ lib/
 ## 🏗️ Clean Architecture (Camadas)
 
 ### 1. **Domain Layer** (Núcleo do negócio)
+
 - **Entities**: `PlantInfo` - representa os dados de uma planta
 - **Repositories**: Interface abstrata para operações de dados
 - **Use Cases**: `IdentifyPlantUsecase` - lógica de identificação
 
 ### 2. **Data Layer** (Dados externos)
+
 - **Datasources**: `GeminiDatasource` - comunica com API Gemini
 - **Models**: `PlantInfoModel` - serialização JSON
 - **Repository Impl**: Implementa interface do Domain
 
 ### 3. **Presentation Layer** (UI)
+
 - **Cubit**: Gerencia estado com Bloc pattern
 - **Pages**: Telas do app (Home, Camera, Result)
 - **Widgets**: Componentes reutilizáveis
@@ -81,18 +85,21 @@ lib/
 ## 🎨 Design System
 
 ### Paleta de Cores
+
 - **Primary**: `#4CAF50` (Verde vibrante)
 - **Secondary**: `#81C784` (Verde claro)
 - **Background**: `#F1F8E9` (Verde pastel)
 - **Accent**: `#66BB6A`
 
 ### Tipografia
+
 - **Headers**: Google Fonts Poppins (Bold)
 - **Body**: Google Fonts Inter (Regular/Medium)
 
 ## 💰 Monetização
 
 ### Google AdMob
+
 - **Banner Ad**: Rodapé da HomePage
 - **Interstitial Ad**: A cada 5 identificações
 - **Test IDs**: Configurados em `app_config.dart`
@@ -134,12 +141,14 @@ setupDependencies() {
 ## 🔐 Configuração de Permissões
 
 ### Android (`AndroidManifest.xml`)
+
 ```xml
 <uses-permission android:name="android.permission.CAMERA"/>
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
 ### iOS (`Info.plist`)
+
 ```xml
 <key>NSCameraUsageDescription</key>
 <string>Bloomix precisa acessar sua câmera para fotografar e identificar plantas.</string>
