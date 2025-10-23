@@ -18,11 +18,41 @@ Bloomix is a cutting-edge Flutter application that leverages Google's Gemini AI 
 ## 📱 App Demo
 
 <div align="center">
-  <video width="300" controls>
-    <source src="video/Bloommix.mp4" type="video/mp4">
-    Seu navegador não suporta o elemento de vídeo.
-  </video>
-  <p><em>Demonstração do Bloomix em funcionamento</em></p>
+  <img src="https://img.shields.io/badge/📱-Watch%20Demo-blue?style=for-the-badge&logo=github" alt="Watch Demo">
+  
+  **🎬 [Assistir ao Vídeo Demo](video/Bloommix.mp4)**
+  
+  <p><em>Clique no link acima para ver a demonstração do Bloomix em funcionamento</em></p>
+  
+  <details>
+    <summary>📋 <strong>Funcionalidades Demonstradas no Vídeo</strong></summary>
+    
+    - 🤖 **Identificação de Plantas** com IA Gemini
+    - 📸 **Captura de Fotos** com câmera integrada
+    - 📊 **Resultados Detalhados** com pontuação de confiança
+    - 📱 **Interface Moderna** e responsiva
+    - 🌍 **Suporte Multi-idioma** (PT, EN, ES, FR)
+    - 📈 **Histórico de Identificações** salvo localmente
+    - 🎨 **Design System** personalizado Bloomix
+  </details>
+</div>
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="https://img.shields.io/badge/📱-Screenshots%20Coming%20Soon-orange?style=for-the-badge" alt="Screenshots">
+  
+  <p><em>Screenshots do app serão adicionados em breve</em></p>
+  
+  <details>
+    <summary>🖼️ <strong>Telas do App</strong></summary>
+    
+    - 🏠 **Tela Inicial** - Interface principal com botão de câmera
+    - 📸 **Tela da Câmera** - Captura de fotos com preview
+    - 🔍 **Tela de Resultado** - Identificação da planta com detalhes
+    - 📚 **Histórico** - Lista de plantas identificadas anteriormente
+    - ⚙️ **Configurações** - Ajustes de idioma e preferências
+  </details>
 </div>
 
 ### ✨ Key Features
