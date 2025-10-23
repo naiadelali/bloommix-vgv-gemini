@@ -290,7 +290,6 @@ Project Link: [https://github.com/lallibloom/bloomix](https://github.com/lallibl
 
 <div align="center">
   <p>Desenvolvido com ❤️ por <strong>Lalli Bloom</strong> usando Flutter e arquitetura Very Good Ventures</p>
-  <p>Perfeito para demonstrar habilidades avançadas de desenvolvimento Flutter!</p>
 </div>
 
 <!-- Badges -->
