@@ -162,8 +162,8 @@ Create a `config.json` file with your API keys:
 ```json
 {
   "geminiApiKey": "your_gemini_api_key",
-  "testBannerAdUnitId": "ca-app-pub-3940256099942544/6300978111",
-  "testInterstitialAdUnitId": "ca-app-pub-3940256099942544/1033173712",
+  "testBannerAdUnitId": "ca-app-pub-testBannerAdUnitId/6300978111",
+  "testInterstitialAdUnitId": "ca-app-pub-testBannerAdUnitId/1033173712",
   "productionAndroidBannerAdUnitId": "your_android_banner_id",
   "productionAndroidInterstitialAdUnitId": "your_android_interstitial_id",
   "productionIOSBannerAdUnitId": "your_ios_banner_id",
@@ -236,8 +236,6 @@ The app supports multiple languages:
 
 - 🇧🇷 Portuguese (Brazil)
 - 🇺🇸 English (US)
-- 🇪🇸 Spanish
-- 🇫🇷 French
 
 Automatic locale detection based on device settings.
 
